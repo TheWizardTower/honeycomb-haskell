@@ -27,16 +27,32 @@ executable honeycomb-example
   -- other-extensions:
   build-depends:
       base                          >=4.13 && <4.14
+    , aeson
+    , bytestring
+    , hashable
     , honeycomb
     , honeycomb-servant-client-rio
     , honeycomb-servant-server-rio
     , hostname
     , http-client
+    , http-client-tls
+    , http-types
+    , microlens
+    , microlens-mtl
+    , mtl
+    , network-uri
+    , random
     , rio
+    , scientific
     , servant
     , servant-client
     , servant-client-core
     , servant-server
+    , stm
+    , text
+    , time
+    , unliftio
+    , unordered-containers
     , warp
 
   hs-source-dirs:   src
