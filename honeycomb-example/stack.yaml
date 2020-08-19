@@ -1,0 +1,12 @@
+resolver: lts-16.10
+
+packages:
+  - .
+  - ../honeycomb
+  - ../honeycomb-servant
+  - ../honeycomb-servant-client
+  - ../honeycomb-servant-client-rio
+  - ../honeycomb-servant-server
+  - ../honeycomb-servant-server-rio
+  - ../honeycomb-wai
+  - ../wai-unliftio

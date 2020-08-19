@@ -1,0 +1,6 @@
+resolver: lts-16.10
+
+packages:
+  - .
+  - ../honeycomb
+  - ../wai-unliftio
